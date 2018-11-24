@@ -15,16 +15,16 @@ body h1 {
     height: 46px;
 }
 
-.content {
-    margin: 0 auto;
-    width: 76%;
-    background: white;
-    box-shadow: 0px 0px 25px -3px gray;
-}
-
 hr {
     background:#ffbde1;
     height: 40px;
     margin: 0;
     border: none;
+}
+
+.content {
+    margin: 0 auto;
+    width: 76%;
+    background: white;
+    box-shadow: 0px 0px 25px -3px gray;
 }
