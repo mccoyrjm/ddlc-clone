@@ -1,0 +1,8 @@
+.center-block {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.remove-margin-bottom {
+    margin-bottom: 0;
+}
