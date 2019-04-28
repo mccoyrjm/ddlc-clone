@@ -11,3 +11,24 @@
   display: flex;
   justify-content: center;
 }
+
+.grid-container {
+  width: 100%;
+  padding: .5rem;
+}
+
+.grid-column {
+  display: inline-block;
+}
+
+.grid-column__two-thirds {
+  width: 66.6%;
+}
+
+.grid-column__one-third {
+  width: 33.3%;
+}
+
+.container {
+  padding: 1rem;
+}
