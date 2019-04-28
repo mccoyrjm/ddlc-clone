@@ -5,7 +5,7 @@ html {
 body {
     box-sizing: inherit;
     margin: 0;
-    background-image: url("../images/tilebg.png");
+    background-image: url("../assets/images/tilebg.png");
     background-repeat: repeat;
     font-family: 'Lato', sans-serif;
 }

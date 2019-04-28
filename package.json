@@ -2,7 +2,7 @@
   "name": "ddlc-clone",
   "version": "1.0.0",
   "description": "A clone site of ddlc.moe created to practice CSS3.",
-  "main": "index.html",
+  "main": "src/client/index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
