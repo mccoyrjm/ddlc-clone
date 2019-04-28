@@ -34,8 +34,16 @@ h3 {
 
 p, li {
   font-size: 1.6rem;
+  line-height: 2.24rem;
 }
 
 a {
     color: #bb5599;
+}
+
+hr {
+  height: 1px;
+  margin: 1.6rem 0;
+  border: 0;
+  background: #dadada;
 }
