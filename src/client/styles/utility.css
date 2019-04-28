@@ -6,3 +6,7 @@
 .u-text--center {
   text-align: center;
 }
+
+.u-strip-margin {
+  margin: 0;
+}
