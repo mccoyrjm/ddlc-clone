@@ -6,7 +6,7 @@
   box-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
 }
 
-.section-separator {
+.banner-divider {
   background:#ffbde1;
   height: 4rem;
   margin: 0;
@@ -21,7 +21,11 @@
 
 .download-link {
   margin: 3rem 0 12rem;
+}
 
+.container-promo {
+  height: 42.8rem;
+  overflow: hidden;
 }
 
 .store-banner {
