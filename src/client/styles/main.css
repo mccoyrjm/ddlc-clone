@@ -9,8 +9,11 @@ html {
     font-size: 62.5%;
 }
 
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
 body {
-    box-sizing: inherit;
     margin: 0;
     background-image: url("../assets/images/tilebg.png");
     background-repeat: repeat;
