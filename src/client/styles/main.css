@@ -41,6 +41,10 @@ a {
     color: #bb5599;
 }
 
+a > img {
+  display: block;
+}
+
 hr {
   height: 1px;
   margin: 1.6rem 0;
