@@ -1,5 +1,12 @@
 html {
     box-sizing: border-box;
+    /*
+    * Support: Sizing with rem units
+    * Default font-size of root is 16px. Want to change to 10px to make rem to px calculations easier.
+    * Solution: Use percentage value to account for user changing default font size of browser.
+    * Resources: https://medium.com/code-better/css-units-for-font-size-px-em-rem-79f7e592bb97
+    */
+    font-size: 62.5%;
 }
 
 body {
@@ -10,6 +17,22 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 1.872rem;
+}
+
+p, li {
+  font-size: 1.6rem;
+}
+
 a {
     color: #bb5599;
 }
@@ -17,29 +40,29 @@ a {
 .tagline {
     font-family: "Annie Use Your Telescope", cursive;
     text-align: center;
-    height: 60px;
+    height: 6rem;
 }
 
 .section-separator {
     background:#ffbde1;
-    height: 40px;
-    margin: 15px 0;
+    height: 4rem;
+    margin: 1.5rem 0;
     border: none;
 }
 
 .content {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 96rem;
     background: white;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
 }
 
 .preview-video {
-    margin: 20px 0;
+    margin: 2rem 0;
 }
 
 .download-link {
-    margin: 20px auto 60px auto;
+    margin: 2rem auto 6rem auto;
     display: table;
 }
 
@@ -50,7 +73,7 @@ a {
 
 .grid-container {
     width: 100%;
-    padding: 5px;
+    padding: .5rem;
 }
 
 .grid-column {
@@ -66,15 +89,15 @@ a {
 }
 
 .container {
-    padding: 10px;
+    padding: 1rem;
 }
 
 hr {
-    margin: 0 10px;
+    margin: 0 1rem;
 }
 
 .store-banner {
-    margin: 10px auto;
+    margin: 1rem auto;
     display: table;
 }
 
@@ -88,7 +111,7 @@ hr {
 }
 
 .footer-content {
-    max-width: 960px;
+    max-width: 96rem;
 }
 
 .footer-link {
