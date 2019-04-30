@@ -1,8 +1,6 @@
-.content {
-  margin: 0 auto;
-  min-width: 96rem;
+.main-content {
   max-width: 96rem;
-  background: white;
+  background: #fff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, .3);
 }
 
@@ -16,62 +14,69 @@
 .header-title {
   font-family: "Annie Use Your Telescope", cursive;
   text-align: center;
-  margin: 3rem 0;
+  margin: 3rem 1rem;
 }
 
-.container-download-link {
-  margin: 3rem 0 12rem;
+.preview-video {
+  margin-bottom: 8rem;
+}
+
+.download-link {
+  margin: 3rem 1rem 6rem;
 }
 
 .container-promo {
-  height: 42.8rem;
+  padding: .5rem;
+  height: 24rem;
   overflow: hidden;
 }
 
-.container-description {
-  display: flex;
-  justify-content: space-between;
-  padding: 2rem 0 20rem 2rem;
+.container-text-content {
+  margin: 0 1rem;
 }
 
-.container-description--text {
-  width: 55.2rem; /* TODO: change to % when adding responsiveness */
-  margin-right: 2rem;
+.sub-header {
+  text-align: center;
 }
 
 .store-banner {
   margin: 1rem 0;
 }
 
-.container-description--screenshots {
-  width: 34.7rem; /* TODO: change to % when adding responsiveness */
+.container-screenshots {
+  margin: 1rem;
 }
 
 .screenshot {
   width: 100%;
-  margin-bottom: 1rem;
+  max-width: 48rem;
+  margin: .1rem 0;
+}
+
+.disclaimer {
+  padding-bottom: 2rem;
 }
 
 .footer {
   background: #222;
-  margin: 0;
+  height: 9rem;
 }
 
 .footer-content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: .4rem 0;
-  min-width: 96rem;
   max-width: 96rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 1rem;
 }
 
 .footer-links {
-  color: #fff;
   font-family: 'Lato', sans-serif;
-  text-transform: uppercase;
   font-weight: 300;
+  text-transform: uppercase;
   letter-spacing: .2rem;
+  color: #fff;
 }
 
 .footer-links > a {
