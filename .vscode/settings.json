@@ -1,14 +1,3 @@
 {
-    "cSpell.words": [
-        "ddlc",
-        "mdash",
-        "monika",
-        "natsuki",
-        "salvato",
-        "satchely",
-        "sayori",
-        "tilebg",
-        "tsfooter",
-        "velinquent"
-    ]
+  "liveServer.settings.root": "/src/client"
 }
